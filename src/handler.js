@@ -43,3 +43,5 @@ function handle(pathname, params) {
 }
 
 module.exports = { handle, noCache, REVISION, GREETING, FOOTER };
+
+this is not valid javascript ===
