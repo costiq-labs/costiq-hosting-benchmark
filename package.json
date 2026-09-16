@@ -1,0 +1,9 @@
+{
+  "name": "costiq-hosting-benchmark-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standardized benchmark application for HOSTING-DEPLOYMENT-01. No dependencies, no secrets, no user data.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": "20.x" }
+}
