@@ -2,7 +2,7 @@
 // Contract: / public page, /health JSON with revision and greeting, /fail controlled 500 with marker.
 const REVISION = process.env.COSTIQ_REVISION || 'unset';
 const GREETING = process.env.COSTIQ_GREETING || 'unset';
-const FOOTER = process.env.COSTIQ_FOOTER || 'v2-good';
+const FOOTER = process.env.COSTIQ_FOOTER || 'v10-good';
 
 const noCache = {
   'cache-control': 'no-store, no-cache, must-revalidate',
