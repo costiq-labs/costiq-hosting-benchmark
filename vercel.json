@@ -1,5 +1,8 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index?path=$1" }
+    { "source": "/health", "destination": "/api/health" },
+    { "source": "/fail", "destination": "/api/fail" },
+    { "source": "/", "destination": "/api/page" },
+    { "source": "/(.*)", "destination": "/api/notfound" }
   ]
 }
